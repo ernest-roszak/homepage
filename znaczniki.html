@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ernest Roszak</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="java.js"></script>
+</head>
+
+<body>
+
+    <main>
+        <header id="top">
+            <nav>
+                <a href="index.html">Strona Główna</a>
+                <a href="budowa.html">Budowa strony</a>
+                <a href="znaczniki.html">Znaczniki</a>
+            </nav>
+
+            <h1 class="header-1">Ernest Roszak - Strona Domowa</h1>
+
+        </header>
+
+
+        <section>
+            <h2 class="header-2">Znaczniki HTML</h2>
+            <p>Ta sekcja poświęcona jest znacznikom html</p>
+            <img class="header_img" src="znacznik.jpg" alt="Znaczniki html">
+            <article>
+                <ul>
+                    <li> &lt;br/&gt; --> enter - nowa linia</li>
+                    <li> &lt;b&gt; --> bold - pogróbienie (nie ma zanczenia semnatyznego - tylko wizualnie)</li>
+                    <li> &lt;i&gt; --> italic - kursywa</li>
+                    <li> &lt;strong&gt; --> tez pogróbienie, ale stosujemy w celu pokreślenia jakiegoś waznego, wysoka
+                        istotność powazność tekstu </li>
+                    <li> &lt;em&gt; --> podkresla ze tekst moze miec inne znaczenie np. irona (alez ja kocham koty
+                        hahahah</li>
+                    <li> &lt;a --> linki na zewnątrz i wewnatrz dokumentu </li>
+                    <li> href --> adres domentu zewnetrznego np. https://</li>
+                    <li> id="nazwa" --> przypisanie id do sekcji ( stawianie kotwicy mozna potem to odszukać a hrefem )
+                    </li>
+                    <li> href="#nazwa" --> odnosnik wewnątrz dokumetu ( odszukanie kotwicy ) znak # jest SUPER istotny
+                    </li>
+                    <li style="color: red;"> pisać dokładnie do czego prowadzi link we wszystkich odnosnikach a (np.
+                        wróć na górę strony &lt;header id= "top"&gt; ) </li>
+                    <li> &lt;nav&gt; --> navigacja strony</li>
+                    <li>&lt;img src="ściezka_do_zdjecia" alt="opis"/&gt; --> umieszczanie grafik</li>
+
+                </ul>
+
+            </article>
+        </section>
+        <section>
+            <h2 class="header-2">Znaczniki CSS</h2>
+            <p>Ta sekcja poświęcona jest znacznikom css</p>
+            <img class="header_img" src="znacznik.jpg" alt="Znaczniki html">
+            <article>
+                <ul>
+                    <li> selektor{właściwość: wartość;} --> budowa składni css - zewnętrzny dokument</li>
+                    <li> &lt;style&gt; --> mona pisać reguły css wewnątrz zancznika html- sekcja head</li>
+                    <li> &lt;&gt; --> italic - kursywa</li>
+                    <li> #FFCCNN --> kolory zapisywane są za pomocą kody szesnastkowego
+                        #FF(czerwony)CC(zielony)NN(niebieski) RGB</li>
+                    <li> &lt;znacznik style="color: yellow"&gt; --> sytlowanie wewnątrz znacznika html (inline)</li>
+                    <li> #id <br /> .class --> prawdziwe selektory <br /> element </li>
+                    <li> &lt;znacznik class="name"&gt;treść&lt;/znacznik&gt; --> oznaczenie klasy w html</li>
+                    <li> .name{</br>właściwość: wartość; <br />} --> przypisanie klasy w css</li>
+                    <li> &lt;znacznik id="name"&gt;treść&lt;/znacznik&gt; --> oznaczenie klasy w html</li>
+                    <li> #name{</br>właściwość: wartość; <br />} --> przypisanie klasy w css</li>
+                    <li style="color:red;">KLASA = KROPKA, ID = (#)HASH </li>
+                    <li>nav a --> stylujemy linki tylko! w nawigacji</li>
+                    <li>kebab-case</li>
+                    <li>nazywamy klasy po ang zgodnie z przeznaczeniem</li>
+                    <li>nie stylujemy inline i nie uzywamy important bez potrzeby</li>
+
+
+                </ul>
+
+            </article>
+            <article>
+                <h2 class="header-2">Specyficzność w css</h2>
+                <p>Kolejność stylowania według wyzszości</p>
+                <ul>
+                    <li>!important --> zabija (nadpisuje) wszystkie inne reguły</li>
+                    <li>(!important, style ) , #name , .name , elemnt</li>
+                    <li>Przykład 1 body h1 {<br />color: yellow;<br />} dwa elementy body + h1 - wazniejsze od np.
+                        samego h1</li>
+                    <li>Przykład 2 #main-header {<br />color: red;<br />} ID wyzsza specyficzność od html body h1
+                        {color: yellow} --> ID większe od 3 elementów </li>
+                    <li>Kiedy specyficzność jest równa wygrywa style blizszy (nizej) do elementu stylowanego</li><br />
+                    <span class="description">Rekomenduje dodawać wszystkich elemnetów i unikać zagniezdzeń (nie pisać
+                        header nav a tylko uzyc klasy np header-link) - Tworzymy klasy nawet jeśli mamy tylko jedne
+                        elemment</span>
+
+                </ul>
+            </article>
+        </section>
+        <footer>
+            <h3 class="header-3">Ta strona przeznaczona jest do nauki html css js <a href="#top">Wróć na górę</a></h3>
+        </footer>
+
+
+    </main>
+
+
+</body>
+
+</html>

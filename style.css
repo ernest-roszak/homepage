@@ -1,0 +1,51 @@
+.header-1 {
+  color: black;
+}
+
+body {
+  background-color: #fefefe;
+}
+p {
+  color: rgb(32, 27, 19);
+}
+.header-2 {
+  color: #1460aa;
+}
+.header-3 {
+  color: red;
+}
+header {
+  text-align: center;
+}
+ul {
+  margin-left: auto;
+}
+li {
+  margin-left: auto;
+}
+.header_img {
+  width: 380px;
+  height: 120px;
+}
+.header_index_img {
+  width: 380px;
+  height: 350px;
+}
+#top {
+  background-color: #3bc43b;
+}
+nav a {
+  color: #3b3bc4;
+}
+a {
+  color: #c43b3b;
+}
+
+.description {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #c43b3b;
+  font-size: 18px;
+  font-style: oblique;
+  font-weight: bold;
+}
