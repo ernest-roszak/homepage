@@ -2,7 +2,7 @@ body {
   background-color: #C4DBE0;
 }
 main {
-  background-color: #fff;
+  background-color: #C4DBE0;
   max-width: 80%;
   padding: 20px;
   margin: auto;
@@ -15,10 +15,7 @@ main {
   display: block;
   z-index: 2500;
 }
-.header {
-  
-   
-}
+
 .navigation {
   background: #0C6980;
   border-radius: 10px 40px;
@@ -49,8 +46,8 @@ main {
   box-sizing: border-box;
   max-width: 150px;
   max-height: 200px;
-  right: 20%;
-  top: 30%;
+  right: 5%;
+  top: 20%;
   z-index: 2000;
 }
 .header-img {
@@ -61,6 +58,20 @@ main {
   right: 20%;
   top: 20%;
   z-index: 2000;
+}
+.section-main {
+  margin: 10px 20px;
+  padding: 15px;
+  margin-bottom: 10px;
+  background: rgb(46, 181, 224, 0.2);
+  max-width: 70%;
+  border-radius: 10px;
+}
+.section-main__title {
+  color: #0C6980
+}
+.section-main__description {
+color: #000
 }
 
 
