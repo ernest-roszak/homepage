@@ -2,17 +2,30 @@
 body {
   background-color: #fefefe;
 }
+main{
+  background-color: rgba(4, 4, 5, 0.425);
+  max-width: 80%;
+  padding: 20px;
+  border: 10px solid #fff;
+  margin: auto;
+}
 p {
   color: rgb(32, 27, 19);
 }
 .h1 {
   color: black;
 }
+.h1-title {
+  margin: auto;
+}
 .h2 {
   color: #1460aa;
 }
 .h3 {
   color: red;
+}
+.top-picture {
+  display: inline;
 }
 .header-img {
   width: 380px;
