@@ -24,10 +24,10 @@
               </header>
 
 
-        <section>
-            <h2 class="h2">Znaczniki HTML</h2>
-            <p>Ta sekcja poświęcona jest znacznikom html</p>
-            <img class="header-img" src="znacznik.jpg" alt="Znaczniki html">
+        <section class="section-main">
+            <h2 class="section-main__title">Znaczniki HTML</h2>
+            <h3 class="section-main__title">Ta sekcja poświęcona jest znacznikom html</h3>
+            <img class="header-index-img" src="znacznik.jpg" alt="Znaczniki html">
             <article>
                 <ul>
                     <li> &lt;br/&gt; --> enter - nowa linia</li>
@@ -52,10 +52,10 @@
 
             </article>
         </section>
-        <section>
-            <h2 class="h2">Znaczniki CSS</h2>
-            <p>Ta sekcja poświęcona jest znacznikom css</p>
-            <img class="header-img" src="znacznik.jpg" alt="Znaczniki html">
+        <section class="section-main">
+            <h2 class="section-main__title">Znaczniki css</h2>
+            <h3 class="section-main__title">Ta sekcja poświęcona jest znacznikom css</h3>
+            <img class="header-index-img" src="znacznik.jpg" alt="Znaczniki css">
             <article>
                 <ul>
                     <li> selektor{właściwość: wartość;} --> budowa składni css - zewnętrzny dokument</li>
@@ -79,9 +79,11 @@
                 </ul>
 
             </article>
+        </section>
+            <section class="section-main">
+                <h2 class="section-main__title">Specyficzność w css</h2>
+                <h3 class="section-main__title">Kolejność stylowania według wyzszości</h3>
             <article>
-                <h2 class="h2">Specyficzność w css</h2>
-                <p>Kolejność stylowania według wyzszości</p>
                 <ul>
                     <li>!important --> zabija (nadpisuje) wszystkie inne reguły</li>
                     <li>(!important, style ) , #name , .name , elemnt</li>
@@ -90,16 +92,19 @@
                     <li>Przykład 2 #main-header {<br />color: red;<br />} ID wyzsza specyficzność od html body h1
                         {color: yellow} --> ID większe od 3 elementów </li>
                     <li>Kiedy specyficzność jest równa wygrywa style blizszy (nizej) do elementu stylowanego</li><br />
-                    <span class="description">Rekomenduje dodawać wszystkich elemnetów i unikać zagniezdzeń (nie pisać
-                        header nav a tylko uzyc klasy np header-link) - Tworzymy klasy nawet jeśli mamy tylko jedne
-                        elemment</span>
-
-                </ul>
+                    </ul>
+                <div></div><span class="description">Rekomenduje dodawać wszystkich elemnetów i unikać zagniezdzeń (nie pisać
+                        header nav a tylko użyć klasy np header-link) - Tworzymy klasy nawet jeśli mamy tylko jedne
+                        elemment</span></div>
             </article>
         </section>
-        <footer>
-            <h3 class="h3">Ta strona przeznaczona jest do nauki html css js <a href="#top">Wróć na górę</a></h3>
-        </footer>
+        <footer class="navigation navigation__footer">
+            <h3 class="navigation__footer-destription">
+              Ta strona przeznaczona jest do nauki html css js
+              
+            </h3>
+            <a class="navigation__link navigation__link--onclick navigation__link--onclick__footer" href="#top">Wróć na górę</a>
+          </footer>
 
 
     </main>

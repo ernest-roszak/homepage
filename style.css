@@ -73,7 +73,22 @@ main {
 .section-main__description {
 color: #000
 }
+.navigation__footer {
+  border-radius: 40px 10px;
+  
 
+}
+.navigation__footer-destription {
+  color: #C4DBE0;
+  margin-left: 10px;
+  display: inline-block;
+}
+.navigation__link--onclick__footer {
+  color:#000;
+  margin: 5px 5px;
+  
+  
+}
 
 p {
   color: rgb(32, 27, 19);
@@ -82,7 +97,7 @@ p {
   color: black;
 }
 .h1-title {
-  margin: 10px 10px;
+  margin: 40px 10px;
   color: #C4DBE0
 }
   
@@ -100,4 +115,7 @@ p {
   font-size: 18px;
   font-style: oblique;
   font-weight: bold;
+  border: 2px solid #c43b3b;
+  display: block;
+  padding: 5px;
 }
