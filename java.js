@@ -1,1 +1,1 @@
-/* alert('Siema')
+alert('Siema')
