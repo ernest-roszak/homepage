@@ -7,15 +7,39 @@ main {
   padding: 20px;
   margin: auto;
   top: 20px;
+  bottom: 20px;
   position: relative;
   border-radius: 10px;
+}
+.section-main {
+  display: block;
+  z-index: 2500;
+}
+.header {
+  
+   
 }
 .navigation {
   background: #0C6980;
   border-radius: 10px 40px;
   padding: 5px;
+  z-index: 100;
+  position: sticky;
+  
 }
-
+.navigation__link {
+  background: #0C6980;
+  padding: 5px;
+  border-radius: 6px;
+  display: inline-block;
+  margin: 0px 5px;
+  border: 0.4px solid #000;
+  color: #C4DBE0
+}
+.navigation__link--onclick {
+  background: #2EB5E0;
+  color: #000;
+}
 
 .top-picture {
   display: inline;
@@ -26,17 +50,19 @@ main {
   max-width: 150px;
   max-height: 200px;
   right: 20%;
+  top: 30%;
+  z-index: 2000;
+}
+.header-img {
+  position: absolute;
+  box-sizing: border-box;
+  max-width: 150px;
+  max-height: 200px;
+  right: 20%;
   top: 20%;
   z-index: 2000;
 }
-.section-main {
-  display: block;
-  z-index: 2500;
-}
-.header {
-  position: sticky;
-   
-}
+
 
 p {
   color: rgb(32, 27, 19);
@@ -46,7 +72,8 @@ p {
 }
 .h1-title {
   margin: 10px 10px;
-  
+  color: #C4DBE0
+}
   
 }
 .h2 {
