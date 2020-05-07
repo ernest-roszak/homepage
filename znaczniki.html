@@ -12,6 +12,7 @@
 <body>
 
     <main>
+        <div class="navigation">
             <header id="top" class="header">
                 <nav class="navigation">
                   <a class="navigation__link" href="index.html">Strona Główna</a>
@@ -19,7 +20,7 @@
                   <a class="navigation__link navigation__link--onclick" href="znaczniki.html">Znaczniki</a>
                   <h1 class="h1-title">Ernest Roszak - Strona Domowa</h1>
                 </nav>
-        
+            </div>
                 
               </header>
 
@@ -30,23 +31,23 @@
             <img class="header-index-img" src="znacznik.jpg" alt="Znaczniki html">
             <article>
                 <ul>
-                    <li> &lt;br/&gt; --> enter - nowa linia</li>
-                    <li> &lt;b&gt; --> bold - pogróbienie (nie ma zanczenia semnatyznego - tylko wizualnie)</li>
-                    <li> &lt;i&gt; --> italic - kursywa</li>
-                    <li> &lt;strong&gt; --> tez pogróbienie, ale stosujemy w celu pokreślenia jakiegoś waznego, wysoka
+                    <li class="li__markup"> <span class="border__markup"> &lt;br/&gt; </span>--> enter - nowa linia</li>
+                    <li class="li__markup"> <span class="border__markup">  &lt;b&gt; </span>--> bold - pogróbienie (nie ma zanczenia semnatyznego - tylko wizualnie)</li>
+                    <li class="li__markup"> <span class="border__markup">  &lt;i&gt; </span>--> italic - kursywa</li>
+                    <li class="li__markup"> <span class="border__markup">  &lt;strong&gt; </span>--> tez pogróbienie, ale stosujemy w celu pokreślenia jakiegoś waznego, wysoka
                         istotność powazność tekstu </li>
-                    <li> &lt;em&gt; --> podkresla ze tekst moze miec inne znaczenie np. irona (alez ja kocham koty
+                    <li class="li__markup"> <span class="border__markup">  &lt;em&gt; </span>--> podkresla ze tekst moze miec inne znaczenie np. irona (alez ja kocham koty
                         hahahah</li>
-                    <li> &lt;a --> linki na zewnątrz i wewnatrz dokumentu </li>
-                    <li> href --> adres domentu zewnetrznego np. https://</li>
-                    <li> id="nazwa" --> przypisanie id do sekcji ( stawianie kotwicy mozna potem to odszukać a hrefem )
+                    <li class="li__markup"> <span class="border__markup">  &lt;a </span>--> linki na zewnątrz i wewnatrz dokumentu </li>
+                    <li class="li__markup"> <span class="border__markup">  href </span>--> adres domentu zewnetrznego np. https://</li>
+                    <li class="li__markup"> <span class="border__markup">  id="nazwa" </span>--> przypisanie id do sekcji ( stawianie kotwicy mozna potem to odszukać a hrefem )
                     </li>
-                    <li> href="#nazwa" --> odnosnik wewnątrz dokumetu ( odszukanie kotwicy ) znak # jest SUPER istotny
+                    <li class="li__markup"><span class="border__markup">  href="#nazwa" </span>--> odnosnik wewnątrz dokumetu ( odszukanie kotwicy ) znak # jest SUPER istotny
                     </li>
-                    <li style="color: red;"> pisać dokładnie do czego prowadzi link we wszystkich odnosnikach a (np.
+                    <li style="color: red;" > pisać dokładnie do czego prowadzi link we wszystkich odnosnikach a (np.
                         wróć na górę strony &lt;header id= "top"&gt; ) </li>
-                    <li> &lt;nav&gt; --> navigacja strony</li>
-                    <li>&lt;img src="ściezka_do_zdjecia" alt="opis"/&gt; --> umieszczanie grafik</li>
+                    <li class="li__markup"><span class="border__markup">  &lt;nav&gt; </span>--> navigacja strony</li>
+                    <li class="li__markup"><span class="border__markup"> &lt;img src="ściezka_do_zdjecia" alt="opis"/&gt; </span>--> umieszczanie grafik</li>
 
                 </ul>
 
@@ -58,22 +59,22 @@
             <img class="header-index-img" src="znacznik.jpg" alt="Znaczniki css">
             <article>
                 <ul>
-                    <li> selektor{właściwość: wartość;} --> budowa składni css - zewnętrzny dokument</li>
-                    <li> &lt;style&gt; --> mona pisać reguły css wewnątrz zancznika html- sekcja head</li>
-                    <li> &lt;&gt; --> italic - kursywa</li>
-                    <li> #FFCCNN --> kolory zapisywane są za pomocą kody szesnastkowego
+                    <li class="li__markup"><span class="border__markup">  selektor{właściwość: wartość;} </span>--> budowa składni css - zewnętrzny dokument</li>
+                    <li class="li__markup"><span class="border__markup">  &lt;style&gt; </span>--> mona pisać reguły css wewnątrz zancznika html- sekcja head</li>
+                    <li class="li__markup"><span class="border__markup">  &lt;&gt; </span>--> italic - kursywa</li>
+                    <li class="li__markup li__markup--noborder">#FFCCNN --> kolory zapisywane są za pomocą kody szesnastkowego
                         #FF(czerwony)CC(zielony)NN(niebieski) RGB</li>
-                    <li> &lt;znacznik style="color: yellow"&gt; --> sytlowanie wewnątrz znacznika html (inline)</li>
-                    <li> #id <br /> .class --> prawdziwe selektory <br /> element </li>
-                    <li> &lt;znacznik class="name"&gt;treść&lt;/znacznik&gt; --> oznaczenie klasy w html</li>
-                    <li> .name{</br>właściwość: wartość; <br />} --> przypisanie klasy w css</li>
-                    <li> &lt;znacznik id="name"&gt;treść&lt;/znacznik&gt; --> oznaczenie klasy w html</li>
-                    <li> #name{</br>właściwość: wartość; <br />} --> przypisanie klasy w css</li>
+                    <li class="li__markup"> <span class="border__markup">  &lt;znacznik style="color: yellow"&gt; </span>--> sytlowanie wewnątrz znacznika html (inline)</li>
+                    <li class="li__markup li__markup--noborder">#id <br /> .class --> prawdziwe selektory <br /> element </li>
+                    <li class="li__markup"><span class="border__markup">  &lt;znacznik class="name"&gt;treść&lt;/znacznik&gt; </span>--> oznaczenie klasy w html</li>
+                    <li class="li__markup li__markup--noborder">.name{</br>właściwość: wartość; <br />} --> przypisanie klasy w css</li>
+                    <li class="li__markup"><span class="border__markup">  &lt;znacznik id="name"&gt;treść&lt;/znacznik&gt; </span>--> oznaczenie klasy w html</li>
+                    <li class="li__markup li__markup--noborder">#name{</br>właściwość: wartość; <br />} --> przypisanie klasy w css</li>
                     <li style="color:red;">KLASA = KROPKA, ID = (#)HASH </li>
-                    <li>nav a --> stylujemy linki tylko! w nawigacji</li>
-                    <li>kebab-case</li>
-                    <li>nazywamy klasy po ang zgodnie z przeznaczeniem</li>
-                    <li>nie stylujemy inline i nie uzywamy important bez potrzeby</li>
+                    <li class="li__markup"><span class="border__markup"> nav a </span>--> stylujemy linki tylko! w nawigacji</li>
+                    <li class="li__markup li__markup--noborder">kebab-case</li>
+                    <li class="li__markup li__markup--noborder">nazywamy klasy po ang zgodnie z przeznaczeniem</li>
+                    <li class="li__markup li__markup--noborder">nie stylujemy inline i nie uzywamy important bez potrzeby</li>
 
 
                 </ul>
@@ -85,13 +86,13 @@
                 <p class="section-main__description">Kolejność stylowania według wyzszości</p>
             <article>
                 <ul>
-                    <li>!important --> zabija (nadpisuje) wszystkie inne reguły</li>
-                    <li>(!important, style ) , #name , .name , elemnt</li>
-                    <li>Przykład 1 body h1 {<br />color: yellow;<br />} dwa elementy body + h1 - wazniejsze od np.
+                    <li class="li__markup"> <span class="border__markup"> !important --> zabija (nadpisuje) wszystkie inne reguły</li>
+                        <li class="li__markup"> <span class="border__markup"> (!important, style ) , #name , .name , elemnt</li>
+                            <li class="li__markup li__markup--noborder">Przykład 1 body h1 {<br />color: yellow;<br />} dwa elementy body + h1 - wazniejsze od np.
                         samego h1</li>
-                    <li>Przykład 2 #main-header {<br />color: red;<br />} ID wyzsza specyficzność od html body h1
+                        <li class="li__markup li__markup--noborder">Przykład 2 #main-header {<br />color: red;<br />} ID wyzsza specyficzność od html body h1
                         {color: yellow} --> ID większe od 3 elementów </li>
-                    <li>Kiedy specyficzność jest równa wygrywa style blizszy (nizej) do elementu stylowanego</li><br />
+                        <li class="li__markup li__markup--noborder">Kiedy specyficzność jest równa wygrywa style blizszy (nizej) do elementu stylowanego</li><br />
                     </ul>
                 <div></div><span class="description">Rekomenduje dodawać wszystkich elemnetów i unikać zagniezdzeń (nie pisać
                         header nav a tylko użyć klasy np header-link) - Tworzymy klasy nawet jeśli mamy tylko jedne
