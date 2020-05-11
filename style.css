@@ -25,6 +25,7 @@ main {
 }
 .header {
   position: sticky;
+  top: 0px;
 }
 .navigation__link {
   background: #0c6980;
@@ -89,7 +90,7 @@ main {
   color: #000;
   margin: 5px 5px;
 }
-.h1-title {
+.h1__title {
   margin: 40px 10px;
   color: #c4dbe0;
 }
