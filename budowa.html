@@ -4,24 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ernest Roszak</title>
+    <link rel="stylesheet" href="normalize.css.css" type="text/css" />
     <link rel="stylesheet" href="style.css" type="text/css" />
-    <script src="java.js"></script>
   </head>
 
   <body>
     <main>
-      <header id="top" class="header">
-        <nav class="navigation">
-          <a class="navigation__link" href="index.html">Strona Główna</a>
-          <a
-            class="navigation__link navigation__link--onclick"
-            href="budowa.html"
-            >Budowa strony</a
-          >
-          <a class="navigation__link" href="znaczniki.html">Znaczniki</a>
-          <h1 class="h1-title">Ernest Roszak - Strona Domowa</h1>
-        </nav>
-      </header>
+    <header id="top" class="header">
+      <nav class="navigation">
+        <a class="navigation__link" href="index.html">Strona Główna</a>
+        <a class="navigation__link navigation__link--onclick" href="budowa.html"
+          >Budowa strony</a
+        >
+        <a class="navigation__link" href="znaczniki.html">Znaczniki</a>
+        
+      </nav>
+      <h1 class="header__title header__title--js">Ernest Roszak - Strona Domowa</h1>
+    </header>
+
+    
       <section class="section-main">
         <h2 class="section-main__title">Jak zbudować stronę?</h2>
         <p class="section-main__description">
@@ -77,8 +78,8 @@
           </ul>
         </article>
       </section>
-      <footer class="navigation navigation__footer">
-        <h3 class="navigation__footer-destription">
+      <footer class="footer navigation__footer">
+        <h3 class="navigation__footer--destription">
           Ta strona przeznaczona jest do nauki html css js
         </h3>
         <a
@@ -88,5 +89,6 @@
         >
       </footer>
     </main>
+    <script src="main.js"></script>
   </body>
 </html>
